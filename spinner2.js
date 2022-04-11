@@ -3,5 +3,5 @@ let sentence = ['|  ', '\r/  ', '\r-  ', '\r\\  ', '\r|  ', '\r/  ', '\r-  ', '\
 for (let i = 0; i < sentence.length; i++) {
   setTimeout(() => {
     process.stdout.write(`${sentence[i]}`);
-  }, i * 200);
+  }, i * 200 - 100);
 }
